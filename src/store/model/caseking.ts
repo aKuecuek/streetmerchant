@@ -13,7 +13,7 @@ export const Caseking: Store = {
     },
     outOfStock: {
       container: '.delivery_container',
-      text: ['unbekannt'],
+      text: ['unbekannt', 'archiviert'],
     },
   },
   links: [
