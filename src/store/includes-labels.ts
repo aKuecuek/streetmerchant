@@ -116,6 +116,16 @@ export function includesLabels(
   );
 }
 
+function getPriceFromString(priceString: string, euroFormat: boolean): number {
+  return Number.parseFloat(
+    priceString
+      .replace(/\\/g, '')
+      .replace(euroFormat ? /\./g : /,/g, '')
+      .match(/\d+/g)!
+      .join('.')
+  );
+}
+
 export async function getPrice(
   page: Page,
   query: Pricing,
@@ -125,9 +135,12 @@ export async function getPrice(
   const priceString = await extractPageContents(page, selector);
 
   if (priceString) {
-    const price = Number.parseFloat(
-      priceString.replace(/\\.|\\,/g, '').match(/\d+/g)!.join('.') // eslint-disable-line
-    );
+    const euroFormat = priceString.indexOf('.') < priceString.indexOf(',');
+    let price = getPriceFromString(priceString, euroFormat);
+    //Sanity check, flip "euroFormat" if price lower than 50
+    if (price < 50) {
+      price = Math.max(price, getPriceFromString(priceString, !euroFormat));
+    }
 
     logger.debug('received price', price);
     return price;
