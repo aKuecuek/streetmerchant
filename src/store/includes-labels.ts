@@ -135,12 +135,10 @@ export async function getPrice(
   const priceString = await extractPageContents(page, selector);
 
   if (priceString) {
-    const euroFormat = priceString.indexOf('.') < priceString.indexOf(',');
-    let price = getPriceFromString(priceString, euroFormat);
-    //Sanity check, flip "euroFormat" if price lower than 50
-    if (price < 50) {
-      price = Math.max(price, getPriceFromString(priceString, !euroFormat));
-    }
+    const priceSeparator = query.euroFormat ? /\./g : /,/g;
+    const price = Number.parseFloat(
+      priceString.replace(priceSeparator, '').match(/\d+/g)!.join('.')
+    );
 
     logger.debug('received price', price);
     return price;
