@@ -46,6 +46,13 @@ export const Notebooksbilliger: Store = {
         'https://www.notebooksbilliger.de/gainward+geforce+rtx+2070+super+phoenix+v1+grafikkarte+656238',
     },
     {
+      brand: 'evga',
+      model: 'ftw3',
+      series: '3080',
+      url:
+        'https://www.notebooksbilliger.de/evga+geforce+rtx+3080+ftw3+ultra+gaming+grafikkarte+691085',
+    },
+    {
       brand: 'asus',
       model: 'strix',
       series: '3060',
