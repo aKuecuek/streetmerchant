@@ -25,6 +25,13 @@ export const Mindfactory: Store = {
         'https://www.mindfactory.de/product_info.php/8GB-MSI-GeForce-RTX2070Super-GAMING-X-DDR6--Retail-_1329683.html',
     },
     {
+      brand: 'msi',
+      model: 'ventus 2x',
+      series: '3060',
+      url:
+        'https://www.mindfactory.de/product_info.php/12GB-MSI-GeForce-RTX-3060-Ventus-2X-OC_1399586.html',
+    },
+    {
       brand: 'gigabyte',
       model: 'aorus master',
       series: '3080',

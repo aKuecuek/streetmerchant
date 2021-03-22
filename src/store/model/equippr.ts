@@ -25,6 +25,20 @@ export const Equippr: Store = {
         'https://www.equippr.de/amd-ryzen-5-2600x-6x-3-60-ghz-box-yd260xbcafbox-2000034.html',
     },
     {
+      brand: 'zotac',
+      model: 'twin edge oc',
+      series: '3060',
+      url:
+        'https://www.equippr.de/zotac-geforce-rtx-3060-twin-edge-oc-12-gb-gddr6-retail-2071405.html',
+    },
+    {
+      brand: 'evga',
+      model: 'xc gaming',
+      series: '3060',
+      url:
+        'https://www.equippr.de/evga-geforce-rtx-3060-xc-gaming-12-gb-gddr6-retail-2071833.html',
+    },
+    {
       brand: 'asus',
       model: 'dual oc',
       series: '3060ti',

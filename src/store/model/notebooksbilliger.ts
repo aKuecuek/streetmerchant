@@ -46,6 +46,24 @@ export const Notebooksbilliger: Store = {
         'https://www.notebooksbilliger.de/gainward+geforce+rtx+2070+super+phoenix+v1+grafikkarte+656238',
     },
     {
+      brand: 'pny',
+      model: 'xlr8 gaming',
+      series: '3060',
+      url: 'https://www.notebooksbilliger.de/pny+geforce+rtx+3060+xlr8+gaming+revel+epic+x+grafikkarte+701884'
+    },
+    {
+      brand: 'msi',
+      model: 'ventus 2x',
+      series: '3060',
+      url: 'https://www.notebooksbilliger.de/msi+geforce+rtx+3060+ventus+2x+12g+ocgrafikkarte+703090'
+    },
+    {
+      brand: 'inno3d',
+      model: 'ichill x3',
+      series: '3060',
+      url: 'https://www.notebooksbilliger.de/inno3d+geforce+rtx+3060+12gb+ichill+x3+red+b+ware+707190'
+    },
+    {
       brand: 'evga',
       model: 'ftw3',
       series: '3080',
