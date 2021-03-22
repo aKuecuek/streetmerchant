@@ -25,6 +25,10 @@ export const Alternate: Store = {
         container: '.stockStatus',
         text: ['Artikel kann nicht gekauft werden'],
       },
+      {
+        container: '.stockStatus',
+        text: ['Artikel kann derzeit nicht gekauft werden'],
+      },
     ],
   },
   links: [
