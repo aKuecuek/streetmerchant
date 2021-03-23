@@ -171,6 +171,13 @@ export const Notebooksbilliger: Store = {
     {
       brand: 'nvidia',
       model: 'founders edition',
+      series: '3060ti',
+      url:
+        'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3060+ti+founders+edition+707901',
+    },
+    {
+      brand: 'nvidia',
+      model: 'founders edition',
       series: '3070',
       url:
         'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3070+founders+edition+685359',
