@@ -166,6 +166,13 @@ export const Notebooksbilliger: Store = {
       model: 'founders edition',
       series: '3070',
       url:
+        'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3070+founders+edition+714793',
+    },
+    {
+      brand: 'nvidia',
+      model: 'founders edition',
+      series: '3070',
+      url:
         'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3070+founders+edition+685357',
     },
     {
