@@ -278,6 +278,13 @@ export const Notebooksbilliger: Store = {
       model: 'founders edition',
       series: '3080',
       url:
+        'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3080+founders+edition+714792',
+    },
+    {
+      brand: 'nvidia',
+      model: 'founders edition',
+      series: '3080',
+      url:
         'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3080+founders+edition+683301',
     },
     {
