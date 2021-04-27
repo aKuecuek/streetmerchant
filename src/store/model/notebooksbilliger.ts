@@ -166,14 +166,14 @@ export const Notebooksbilliger: Store = {
       model: 'founders edition',
       series: '3070',
       url:
-        'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3070+founders+edition+685357',
+        'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3070+founders+edition+714793',
     },
     {
       brand: 'nvidia',
       model: 'founders edition',
-      series: '3060ti',
+      series: '3070',
       url:
-        'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3060+ti+founders+edition+707901',
+        'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3070+founders+edition+685357',
     },
     {
       brand: 'nvidia',
@@ -272,6 +272,13 @@ export const Notebooksbilliger: Store = {
       series: '3080',
       url:
         'https://www.notebooksbilliger.de/msi+geforce+rtx+3080+gaming+x+trio+10g+grafikkarte+678527',
+    },
+    {
+      brand: 'nvidia',
+      model: 'founders edition',
+      series: '3080',
+      url:
+        'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3080+founders+edition+714792',
     },
     {
       brand: 'nvidia',
