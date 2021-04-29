@@ -91,6 +91,12 @@ export const Saturn: Store = {
       url: 'https://www.saturn.de/de/product/-2691365.html',
     },
     {
+      brand: 'msi',
+      model: 'ventus 3x',
+      series: '3070',
+      url: 'https://www.saturn.de/de/product/-2694896.html',
+    },
+    {
       brand: 'asus',
       model: 'strix',
       series: '3080',
