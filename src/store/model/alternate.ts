@@ -4,13 +4,8 @@ export const Alternate: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: 'span.d-flex > b:nth-child(1)',
-      text: [
-        'auf lager',
-        'ware neu eingetroffen',
-        'in kürze versandfertig',
-        'ware im zulauf',
-      ],
+      container: '.details-cart-button',
+      text: ['In den Warenkorb'],
     },
     maxPrice: {
       container: '.price > span:nth-child(1)',
@@ -26,7 +21,7 @@ export const Alternate: Store = {
         text: ['Artikel kann nicht gekauft werden'],
       },
       {
-        container: '.stockStatus',
+        container: 'div.col-12 > div:nth-child(1)',
         text: ['Artikel kann derzeit nicht gekauft werden'],
       },
     ],
@@ -373,90 +368,6 @@ export const Alternate: Store = {
       model: 'twin edge oc',
       series: '3070',
       url: 'https://www.alternate.de/html/product/1679097',
-    },
-    {
-      brand: 'asus',
-      model: 'tuf',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1716805',
-    },
-    {
-      brand: 'gigabyte',
-      model: 'aorus',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1734878',
-    },
-    {
-      brand: 'asus',
-      model: 'strix',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1716990',
-    },
-    {
-      brand: 'inno3d',
-      model: 'ichill x3',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1717795',
-    },
-    {
-      brand: 'evga',
-      model: 'xc gaming',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1727976',
-    },
-    {
-      brand: 'zotac',
-      model: 'twin edge oc',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1715299',
-    },
-    {
-      brand: 'msi',
-      model: 'gaming x trio',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1719415',
-    },
-    {
-      brand: 'gainward',
-      model: 'ghost oc',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1725930',
-    },
-    {
-      brand: 'palit',
-      model: 'dual oc',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1725915',
-    },
-    {
-      brand: 'palit',
-      model: 'dual',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1725916',
-    },
-    {
-      brand: 'msi',
-      model: 'gaming x',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1719411',
-    },
-    {
-      brand: 'zotac',
-      model: 'twin edge',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1715295',
-    },
-    {
-      brand: 'asus',
-      model: 'dual',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1718716',
-    },
-    {
-      brand: 'palit',
-      model: 'stormx',
-      series: '3060',
-      url: 'https://www.alternate.de/html/product/1725924',
     },
     {
       brand: 'asus',
