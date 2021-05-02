@@ -32,6 +32,20 @@ export const Mindfactory: Store = {
         'https://www.mindfactory.de/product_info.php/12GB-MSI-GeForce-RTX-3060-Ventus-2X-OC_1399586.html',
     },
     {
+      brand: 'zotac',
+      model: 'twin edge oc',
+      series: '3060ti',
+      url:
+        'https://www.mindfactory.de/product_info.php/8GB-ZOTAC-GeForce-RTX-3060-Ti-Twin-Edge-OC-GDDR6-HDMI-3xDP_1387545.html',
+    },
+    {
+      brand: 'msi',
+      model: 'ventus 3x',
+      series: '3060ti',
+      url:
+        'https://www.mindfactory.de/product_info.php/8GB-MSI-GeForce-RTX-3060-Ti-GAMING-X-DDR6--Retail-_1395553.html',
+    },
+    {
       brand: 'gigabyte',
       model: 'aorus master',
       series: '3080',

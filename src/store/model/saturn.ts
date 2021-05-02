@@ -55,10 +55,34 @@ export const Saturn: Store = {
       url: 'https://www.saturn.de/de/product/-2718594.html',
     },
     {
+      brand: 'msi',
+      model: 'ventus 2x',
+      series: '3060ti',
+      url: 'https://www.saturn.de/de/product/-2711769.html',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'aorus master',
+      series: '3060ti',
+      url: 'https://www.saturn.de/de/product/-2702988.html',
+    },
+    {
       brand: 'asus',
       model: 'dual',
       series: '3060ti',
       url: 'https://www.saturn.de/de/product/-2701239.html',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf',
+      series: '3060ti',
+      url: 'https://www.saturn.de/de/product/-2701238.html',
+    },
+    {
+      brand: 'asus',
+      model: 'strix',
+      series: '3060ti',
+      url: 'https://www.saturn.de/de/product/-2701234.html',
     },
     {
       brand: 'zotac',
@@ -91,16 +115,40 @@ export const Saturn: Store = {
       url: 'https://www.saturn.de/de/product/-2691365.html',
     },
     {
+      brand: 'zotac',
+      model: 'amp holo',
+      series: '3070',
+      url: 'https://www.saturn.de/de/product/-2709853.html',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'aorus master',
+      series: '3070',
+      url: 'https://www.saturn.de/de/product/-2696163.html',
+    },
+    {
       brand: 'msi',
       model: 'ventus 3x',
       series: '3070',
       url: 'https://www.saturn.de/de/product/-2694896.html',
     },
     {
+      brand: 'msi',
+      model: 'suprim x',
+      series: '3070',
+      url: 'https://www.saturn.de/de/product/-2703467.html',
+    },
+    {
       brand: 'asus',
       model: 'strix',
       series: '3080',
       url: 'https://www.saturn.de/de/product/-2681869.html',
+    },
+    {
+      brand: 'asus',
+      model: 'dual oc',
+      series: '3070',
+      url: 'https://www.saturn.de/de/product/-2691246.html',
     },
     {
       brand: 'asus',

@@ -148,6 +148,30 @@ export const Alternate: Store = {
       url: 'https://www.alternate.de/html/product/1693462',
     },
     {
+      brand: 'asus',
+      model: 'dual oc',
+      series: '3060ti',
+      url: 'https://www.alternate.de/html/product/1693468',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'eagle oc',
+      series: '3060ti',
+      url: 'https://www.alternate.de/html/product/1694007',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'gaming pro oc',
+      series: '3060ti',
+      url: 'https://www.alternate.de/html/product/1717984',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'gaming oc',
+      series: '3060ti',
+      url: 'https://www.alternate.de/html/product/1694014',
+    },
+    {
       brand: 'evga',
       model: 'ftw3 ultra',
       series: '3060ti',

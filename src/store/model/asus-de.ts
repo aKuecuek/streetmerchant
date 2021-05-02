@@ -18,6 +18,20 @@ export const AsusDe: Store = {
     },
     {
       brand: 'asus',
+      model: 'strix oc',
+      series: '3060ti',
+      url:
+        'https://webshop.asus.com/de/komponenten/grafikkarten/rtx-30-serie/2991/asus-rog-strix-rtx3060ti-o8g-gaming',
+    },
+    {
+      brand: 'asus',
+      model: 'strix',
+      series: '3080',
+      url:
+        'https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2828/asus-rog-strix-rtx3080-10g-gaming',
+    },
+    {
+      brand: 'asus',
       model: 'strix',
       series: '3080',
       url:
@@ -26,9 +40,9 @@ export const AsusDe: Store = {
     {
       brand: 'asus',
       model: 'strix oc',
-      series: '3080',
+      series: '3070',
       url:
-        'https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2829/asus-rog-strix-rtx3080-o10g-gaming',
+        'https://webshop.asus.com/de/komponenten/grafikkarten/rtx-30-serie/3002/asus-rtx3070-8g',
     },
     {
       brand: 'asus',
